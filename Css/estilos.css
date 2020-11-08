@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: "aerokids";
+    src: url(../fuente/Aerokids.ttf);
+  }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/base.jpg);
+}
+
+
+.main{
+    padding: 0px;
+    margin: 0px;
+}
+.text{
+    padding-left: 5%;
+    margin: auto;
+    color: blue;
+}
+.text .titulo{
+    font-size: 500%;
+    color: cornsilk;
+    font-family: aerokids;
+}
+.text .frase{
+    font-size: 150%;
+    color: cornsilk;
+    font-family: 'Poppins', sans-serif;
+}
+.text .redes a{
+    list-style: none;
+    color: cornsilk;
+    font-family: 'Poppins', sans-serif;
+}
+.text .redes a:hover{
+    color: crimson;
+}
+.text .redes li{
+    display: inline;
+    padding-right: 5%;
+    font-size: 1.5em;
+}
+.share{
+    font-size: 120%;
+    color: cornsilk;
+    font-family: 'Poppins', sans-serif;
+}
+.descargar{
+    font-size: 120%;
+    color: cornsilk;
+    font-family: 'Poppins', sans-serif;
+}
+.descarga{
+    width: 30%;
+}
+
+.img{
+    text-align: center;
+    vertical-align: bottom;
+}
+.img img{
+    width: 100%;
+}
+
+.sec{
+    margin-top: 10%;
+    background-color: cornsilk;
+    border-radius: 60px 60px 0px 0px;
+}
+.sec p{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.card i{
+    text-align: center;
+    font-size: 300%;
+}
+.card p{
+    font-size: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.celular{
+    text-align: center;
+    margin-top: 3%;
+}
+.celular img{
+    width: 60%;
+}
